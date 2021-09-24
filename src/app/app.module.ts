@@ -10,6 +10,7 @@ import { ProductosComponent } from './general/productos/productos.component';
 import { BuscarPorCategoriaComponent } from './compartida/buscar-por-categoria/buscar-por-categoria.component';
 import { HomeComponent } from './general/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { NotfoundComponent } from './general/notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AppRoutingModule } from './app-routing.module';
     RegistroComponent,
     ProductosComponent,
     BuscarPorCategoriaComponent,
-    HomeComponent
+    HomeComponent,
+    NotfoundComponent,
   ],
   imports: [
     BrowserModule,
