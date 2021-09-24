@@ -11,6 +11,7 @@ const app_routes: Routes = [
     { path:'login', component: LoginComponent},
     { path:'registro', component: RegistroComponent },
     { path:'productos', component: ProductosComponent },
+    { path:'home', component: HomeComponent },
 ];
 
 //decorador. no olvidar importartlo
