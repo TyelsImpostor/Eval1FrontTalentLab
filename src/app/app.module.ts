@@ -8,6 +8,8 @@ import { LoginComponent } from './general/login/login.component';
 import { RegistroComponent } from './general/registro/registro.component';
 import { ProductosComponent } from './general/productos/productos.component';
 import { BuscarPorCategoriaComponent } from './compartida/buscar-por-categoria/buscar-por-categoria.component';
+import { HomeComponent } from './general/home/home.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,12 @@ import { BuscarPorCategoriaComponent } from './compartida/buscar-por-categoria/b
     LoginComponent,
     RegistroComponent,
     ProductosComponent,
-    BuscarPorCategoriaComponent
+    BuscarPorCategoriaComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
